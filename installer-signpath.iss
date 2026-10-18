@@ -4,6 +4,7 @@
 #define MyAppVersion "0.4"
 #define MyAppExe "NeurixHub-Alpha-0.4.exe"
 
+[Setup]
 LicenseFile=LICENSE
 AppId=NeurixHub
 AppName={#MyAppName}
