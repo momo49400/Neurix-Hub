@@ -1,0 +1,34 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Compilation
+build/
+dist/
+release/
+*.spec
+
+# Donnees locales
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+
+# Certificats et secrets
+*.pfx
+*.p12
+*.pem
+*.key
+*token*
+*secret*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+/NeurixHub_Alpha_0_4_Source/
