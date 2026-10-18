@@ -13,6 +13,12 @@ Preserves Alpha 0.3 global GitHub catalogue, verified downloads, local installer
 
 **Important:** A copy of an installer in the cache does **not** prove that Neurix AI is installed. Alpha 0.4 does not inspect the Windows registry or detect installed versions. The word "update" is a comparison of available versions and cached installers, not an automatic updater. Save SQLite conversations before downgrades.
 
+## Security and code signing
+
+- **Code signing policy:** [CODE_SIGNING_POLICY.md](CODE_SIGNING_POLICY.md)
+- **Alpha 0.4 release notes:** [RELEASE_NOTES_0.4.md](RELEASE_NOTES_0.4.md)
+- Current Windows installer artifacts are **unsigned**. SignPath Foundation approval is pending. Do not bypass Windows security protections to run unsigned builds.
+
 ## Installation / Windows build
 
 1. Extract this ZIP to Downloads.
